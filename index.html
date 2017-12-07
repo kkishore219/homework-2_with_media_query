@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>Homework - CSS Bootstrap</title>
+		<link rel="stylesheet" type="text/css" href="assets/reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Name and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      	</button>
+        <a class="navbar-name" href="#">Kamal Kishore</a>
+        <!-- /.navbar-header -->
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      
+    <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+	
+<div>
+	<div class="row, wrapper">
+		<div class="col-md-8">
+			<p class="about-me"> About Me
+			</p>
+			<hr class="break-line1">
+			<img src="img/spongebob.jpg" width="200" height="200"alt="Profile Picture" class="profile-img">
+			<p>
+				<h4>Why do we use it?</h4>
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+			</p>
+
+		</div>	
+	
+		<div class="col-md-4">
+			<p class="connect-me"> Connect With Me
+			</p>
+			<hr class="break-line2">
+			<td>
+				<a href="https://github.com/kkishore219" target="blank">
+				<img class="img" src="img/github.png" alt="Github"></a>
+			</td>
+          
+ 			<td>
+ 				<a href="https://www.linkedin.com/in/kk219/" target="blank">
+ 				<img class="img" src="img/linkedin.png" alt="linkedin">
+ 				</a>
+			</td>
+
+			<td>
+ 				<a href="https://stackexchange.com/users/6616070/kamal" target="blank">
+ 				<img class="img" src="img/stackoverflow.png" alt="stackoverflow">
+ 				</a>
+			</td>
+
+
+		</div>
+
+	</div>
+
+@media screen and (max-width: 700px)
+    
+body {
+background-color: purple;
+}
+
+.wrapper {
+width: 600px;
+}
+</div>
+
+<footer>
+	<div class="row">
+		<div class="col-md-12">
+			<p> Copyright &copy; 2017 Kamal Kishore
+			</p>
+
+		</div>	
+
+	</div>
+	
+</footer>
+
+</body>
+</html>
